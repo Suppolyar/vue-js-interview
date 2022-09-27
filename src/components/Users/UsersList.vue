@@ -8,7 +8,7 @@
         class="mx-auto"
     >
       <v-list three-line>
-        <template v-for="(item, index) in users">
+        <template v-for="(item, index) in allUsers">
           <v-subheader
               v-if="item.header"
               :key="index"
@@ -40,12 +40,17 @@
 </template>
 
 <script>
-import { users } from "@/mocks/users";
+import {mapGetters} from 'vuex'
+// import { users } from "@/mocks/users";
 export default {
   name: "UsersList",
-  data: () => ({
-    users: users
-  })
+  // data: () => ({
+  //   users: users
+  // })
+  computed: mapGetters(['allUsers']),
+  mounted() {
+    this.$store.dispatch('fetchUsers')
+  }
 }
 </script>
 
