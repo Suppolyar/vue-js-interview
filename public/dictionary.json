@@ -1,0 +1,31 @@
+{
+  "countries": [
+    "Sweden",
+    "USA",
+    "Brazil",
+    "Montenegro"
+  ],
+  "scores": [
+    {
+      "label": "from 1 to 10",
+      "value": {
+        "min": 1,
+        "max": 10
+      }
+    },
+    {
+      "label": "from 11 to 20",
+      "value": {
+        "min": 11,
+        "max": 20
+      }
+    },
+    {
+      "label": "from 21 to 40",
+      "value": {
+        "min": 21,
+        "max": 40
+      }
+    }
+  ]
+}

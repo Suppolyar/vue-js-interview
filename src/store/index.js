@@ -1,9 +1,13 @@
 import Vue from "vue";
 import Vuex from "vuex"
-import user from "@/store/users/user";
+
+// Modules
+import users from "@/store/users/users";
+import dictionary from "@/store/dictionary";
+
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-    modules: { user }
+    modules: { users, dictionary }
 })

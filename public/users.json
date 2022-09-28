@@ -1,11 +1,11 @@
 {
   "users": [
-    { "header": "Users" },
     {
       "avatar": "https://cdn.vuetifyjs.com/images/lists/1.jpg",
       "title": "Brunch this weekend?",
       "subtitle": "I'll be in your neighborhood doing errands this weekend. Do you want to hang out?",
       "text": "Ali Connors",
+      "country": "Sweden",
       "score": 10
     },
     {
@@ -13,6 +13,7 @@
       "title": "Summer BBQ",
       "subtitle": "Wish I could come, but I'm out of town this weekend.",
       "text": "to Alex, Scott, Jennifer",
+      "country": "Brazil",
       "score": 40
     },
     {
@@ -20,6 +21,7 @@
       "title": "Oui oui",
       "subtitle": "Do you have Paris recommendations? Have you ever been?",
       "text": "Sandra Adams",
+      "country": "Montenegro",
       "score": 5
     },
     {
@@ -27,6 +29,7 @@
       "title": "Birthday gift",
       "subtitle": "Have any ideas about what we should get Heidi for her birthday?",
       "text": "Trevor Hansen",
+      "country": "USA",
       "score": 15
     },
     {
@@ -34,6 +37,7 @@
       "title": "Recipe to try",
       "subtitle": "We should eat this: Grate, Squash, Corn, and tomatillo Tacos.",
       "text": "Britta Holt",
+      "country": "Sweden",
       "score": 30
     }
   ]
