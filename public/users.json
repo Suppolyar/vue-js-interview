@@ -6,6 +6,10 @@
       "subtitle": "I'll be in your neighborhood doing errands this weekend. Do you want to hang out?",
       "text": "Ali Connors",
       "country": "Sweden",
+      "address": {
+        "street": "22 Rue du Grenier Saint-Lazare",
+        "city": "Zurich"
+      },
       "score": 10
     },
     {
@@ -14,6 +18,10 @@
       "subtitle": "Wish I could come, but I'm out of town this weekend.",
       "text": "to Alex, Scott, Jennifer",
       "country": "Brazil",
+      "address": {
+        "street": "St. Paulo street",
+        "city": "Rio de Janeiro"
+      },
       "score": 40
     },
     {
@@ -22,6 +30,10 @@
       "subtitle": "Do you have Paris recommendations? Have you ever been?",
       "text": "Sandra Adams",
       "country": "Montenegro",
+      "address": {
+        "street": "Herzegovechka Str.",
+        "city": "Cotor"
+      },
       "score": 5
     },
     {
@@ -30,6 +42,10 @@
       "subtitle": "Have any ideas about what we should get Heidi for her birthday?",
       "text": "Trevor Hansen",
       "country": "USA",
+      "address": {
+        "street": "Boulevard Hollywood",
+        "city": "Los Angeles"
+      },
       "score": 15
     },
     {
@@ -38,6 +54,10 @@
       "subtitle": "We should eat this: Grate, Squash, Corn, and tomatillo Tacos.",
       "text": "Britta Holt",
       "country": "Sweden",
+      "address": {
+        "street": "Heffners alle",
+        "city": "Skönsberg"
+      },
       "score": 30
     }
   ]
