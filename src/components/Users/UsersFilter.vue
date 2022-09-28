@@ -38,7 +38,6 @@ export default {
     },
 
     errorMessage: null,
-
     loading: false
   }),
 
@@ -75,8 +74,8 @@ export default {
               value: newVal[item]
             })
           }
-        })
-        this.$store.dispatch('putFilterParams', filterData)
+        });
+        this.$store.dispatch('putFilterParams', filterData);
       }
     },
   }

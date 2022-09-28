@@ -59,15 +59,17 @@
 export default {
   name: "UsersList",
   props: ['list'],
+
   data() {
     return {
       isOpen: false,
       isOpenedIdx: []
     }
   },
+
   methods: {
     openExtraInfo(idx) {
-      let index = this.isOpenedIdx.indexOf(idx)
+      let index = this.isOpenedIdx.indexOf(idx);
       if (index !== -1) {
         this.isOpenedIdx.splice(index, 1)
       } else {

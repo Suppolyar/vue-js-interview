@@ -7,6 +7,7 @@ export default {
         allUsers(state) {
             return state.users
         },
+
         allFilterParams(state) {
             return state.filterParams
         }
@@ -15,6 +16,7 @@ export default {
         updateUsers(state, users) {
             state.users = users
         },
+
         updateFilterParams(state, filterParams) {
             state.filterParams = filterParams
         }

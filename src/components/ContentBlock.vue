@@ -9,7 +9,9 @@
       <br>
       <span class="red--text">{{ errorMessage }}</span>
     </div>
+
     <div v-else-if="allUsersFiltered.length === 0">Nothing not found</div>
+
     <UsersList
       v-else
       :list="allUsersFiltered"
@@ -48,12 +50,12 @@
     },
 
     mounted() {
-      this.getUsers()
+      this.getUsers();
     },
 
     methods: {
       async getUsers() {
-        this.loading = true
+        this.loading = true;
         try {
           await this.$store.dispatch('fetchUsers')
         } catch (e) {
@@ -65,7 +67,7 @@
       },
 
       doFilter() {
-        let filteredElements = this.allUsers
+        let filteredElements = this.allUsers;
 
         this.allFilterParams.forEach(item => {
           switch (item.field) {
@@ -75,8 +77,8 @@
             case 'score':
               filteredElements = filteredElements.filter((user) => user.score <= item.value.max && user.score >= item.value.min)
           }
-        })
-        return filteredElements
+        });
+        return filteredElements;
       },
     },
   }
